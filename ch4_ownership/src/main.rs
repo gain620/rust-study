@@ -1,5 +1,6 @@
 mod r#move;
 mod move2;
+mod slice;
 
 fn main() {
     let s1 = String::from("hello");
@@ -21,4 +22,6 @@ fn main() {
 
     r#move::main2();
     move2::main3();
+
+    slice::main();
 }
